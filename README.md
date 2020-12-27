@@ -1,3 +1,5 @@
+## First steps on Apple silicon powered system
+
 This repo includes snippets and helpful things to use a Apple silicon Mac. 
 
 ### Running terminal commands through Rosetta 2
