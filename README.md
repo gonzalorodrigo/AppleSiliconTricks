@@ -36,7 +36,7 @@ env /usr/bin/arch -x86_64 /bin/bash --login
 I use bash as my default, shell, but if you use `zsh` you would add the
 following instead:
 ```
-env /usr/bin/arch -x86_64 /bin/bash --login
+env /usr/bin/arch -x86_64 /bin/zsh --login
 ```
 ![alt text](edit_profile.png)
 
