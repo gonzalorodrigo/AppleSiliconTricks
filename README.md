@@ -58,18 +58,20 @@ copied from [Digitalocean](https://www.digitalocean.com/community/tutorials/how-
 $ env GOOS=target-OS GOARCH=target-architecture go build package-import-path
 ```
 
-If you target a Mac with x86-64:
+These are some potentially interesting targets:
+
+- *Mac with x86-64*:
 ```
 $ env GOOS=darwin GOARCH=amd64 go build package-import-path
 ```
 
-If you target a Mac with Apple silicon (not sure if this target is available
+- *Mac with Apple silicon* (not sure if this target is available
 if you a running a version previous to golang 1.16):
 ```
 $ env GOOS=darwin GOARCH=arm64 go build package-import-path
 ```
 
-If you target a Linux system with x86-64
+- *Linux system with x86-64*:
 ```
 $ env GOOS=linux GOARCH=amd64 go build package-import-path
 ```
